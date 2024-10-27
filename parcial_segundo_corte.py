@@ -100,3 +100,4 @@ miembro_vip.return_book(libro2)
 #se muestran todos los libros en la biblioteca
 for book in my_library.show_books():
     print(book)
+    
