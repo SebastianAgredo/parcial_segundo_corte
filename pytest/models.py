@@ -22,18 +22,18 @@ This method provide information about the addition between
 """
 class PersonCRUD:
     def __init__(self):
-        self.people=[]
+        self.persons=[]
 
-# """ 
-# Es una función de busqueda por DNI
+    # """ 
+    # Es una función de busqueda por DNI
 
-# Params:
-# DNI: Es un atributo de la clase Person (string | number)
+    # Params:
+    # DNI: Es un atributo de la clase Person (string | number)
 
-# return:
-# Un objeto de tipo person
+    # return:
+    # Un objeto de tipo person
 
-# """
+    # """
 
     def find_by_dni(self,dni):
         for person in self.persons:

@@ -18,7 +18,7 @@ class TestPersonCRUDE(unittest.TestCase):
     def test_person_duplicate_dni(self):
         self.crud.create(self.person1)
         with self.assertRaises(ValueError):
-            self.crud.create(self.person)
+            self.crud.create(self.person1)
 
 if __name__ == "__main__":
     unittest.main()
